@@ -1,0 +1,55 @@
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html, #root {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+  }
+  .navbar {
+    background: #003366;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+  }
+  
+  .navbar-brand {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #FFD700;
+    text-shadow: 1px 1px 3px black;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .nav-link {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    padding: 6px 10px;
+    border-radius: 6px;
+  }
+  
+  .nav-link:hover {
+    background-color: #004080;
+    color: #ffffff;
+  }
+    
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
